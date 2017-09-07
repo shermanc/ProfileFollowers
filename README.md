@@ -20,12 +20,8 @@
 
 
 ## Todo (Time Constraint)
-- Proper Status Codes 
+- Proper response Status Codes 
 - Commenting the code
 - Testing 
-- Proper organizing 
+- Proper organizing (Modular)
 
-
-### General Items
-- Add cli flag to use local Sqlite DB
-- Fix swagger generation to include all urls for a resource not just the first in the list
