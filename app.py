@@ -72,13 +72,17 @@ def followers(github_id):
         response = response_builder(github_id)
 
         count = 0
-        inner_loop_count = 0
-        for follower in response['profile_followers']:
 
+        for follower in response['profile_followers']:
+            if count > 5:
+                continue
+            inner_loop_count = 0
             profile_follower_response = response_builder(str(follower['github_id']))
             response['profile_followers'][count]['profile_followers'] = profile_follower_response['profile_followers']
 
             for profile in profile_follower_response['profile_followers']:
+                if inner_loop_count > 5:
+                    continue
                 follower_response = response_builder(str(profile['github_id']))
 
                 response['profile_followers'][count]['profile_followers'][inner_loop_count]['profile_followers'] = follower_response['profile_followers']
