@@ -1,22 +1,22 @@
 #  API Endpoint
 
- test_git_id = 7633377
- https://l4w6dh6uqi.execute-api.us-east-2.amazonaws.com/dev/github/users/<test_git_id>
+ - test_git_id = 7633377
+ - https://l4w6dh6uqi.execute-api.us-east-2.amazonaws.com/dev/github/users/<test_git_id>
  
-# Languages and Libraries used
-python
-Flask 
-zappa
-AWS 
+## Languages and Libraries used
+- python
+- Flask 
+- zappa
+- AWS 
 
-# Deployment
-AWS LAMBDA
+## Deployment
+- AWS LAMBDA
 
 
 ## Todo (Time Constraint)
-Commenting the code
-Testing 
-Proper organizing 
+- Commenting the code
+- Testing 
+- Proper organizing 
 
 
 ### General Items
