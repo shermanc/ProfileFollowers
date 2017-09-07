@@ -1,6 +1,6 @@
 # Important Notes
 
-- Git hub Api has service limit of 60 requests/hour. Every internal request is considered as a new request.
+- Git Hub Api has service limit of 60 requests/hour. Every internal request is considered as a new request.
 - If you hit the thrushold, the server gives Internal Server Error. (This should be handled but I didn't due to time constaint).
 - Given time, I can provide the perfect API endpoint. 
 
